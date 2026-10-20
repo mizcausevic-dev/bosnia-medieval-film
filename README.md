@@ -2,7 +2,7 @@
 
 A 15-second Remotion film, "Manuscript into place", on the Charter of Ban Kulin (29 August 1189). Built from an evidence-graded fact sheet: every caption traces to a row in `FACT_SHEET-Claude.md`.
 
-Status: private working repo. Not published. The film's surface, ink and sound are generated, and the film says so on screen.
+Status: public for reading and review (the film itself is not yet published anywhere else). The film's surface, ink and sound are generated, and the film says so on screen.
 
 ## Read first
 - `FACT_SHEET-Claude.md`: the only historical authority for what the film may say, with evidence grades.
@@ -33,4 +33,10 @@ Needs Node 24, Python 3 with numpy, scipy and Pillow, and ffmpeg. Fonts load fro
 ## Limits
 No critical edition or facsimile was consulted. The audio was measured but not listened to by the author of the build or the reviewer. See the fact sheet and historical note for details.
 
-No license is granted. All rights reserved.
+## Third-party material
+- The fact sheet and note quote short phrases from Z. Karavdić, "O Povelji Kulina bana" (c. 2009), and cite it. Her article and the page scans are not included here.
+- No image or facsimile of any surviving copy of the charter is used. Everything on screen is generated.
+- Fonts (IBM Plex Sans, Fragment Mono, Source Serif 4) are loaded from Google Fonts under their open licenses.
+
+## License
+No license is granted. The repository is public so the work can be read and checked; all rights are reserved.
