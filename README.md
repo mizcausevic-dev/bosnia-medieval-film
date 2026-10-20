@@ -1,5 +1,7 @@
 # bosnia-medieval-film
 
+**Preview page (film, key frames, evidence table): https://mizcausevic-dev.github.io/bosnia-medieval-film/**
+
 A 15-second Remotion film, "Manuscript into place", on the Charter of Ban Kulin (29 August 1189). Built from an evidence-graded fact sheet: every caption traces to a row in `FACT_SHEET-Claude.md`.
 
 Status: public for reading and review (the film itself is not yet published anywhere else). The film's surface, ink and sound are generated, and the film says so on screen.
@@ -15,6 +17,7 @@ Status: public for reading and review (the film itself is not yet published anyw
 - `src/StillA.tsx`, `StillB.tsx`, `StillC.tsx` and `stills/`: the three direction proposals (stone, manuscript, Jajce layers). Only B was built.
 - `audio/synth.py`: deterministic ambient sound, picture-locked to `timeline.ts`.
 - `qa/check_frames.py`: measures caption margins and contrast on the delivered MP4. `qa/contact-*.png`: contact sheets.
+- `docs/`: the preview page served by GitHub Pages (`index.html`, key-frame JPEGs, the share MP4). Only this folder is published.
 - `out/bosnia-1189-charter-15s-share-Claude.mp4`: 6 MB share copy. The 31 MB master is not committed.
 
 ## Rebuild
