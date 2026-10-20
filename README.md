@@ -14,7 +14,7 @@ Status: public for reading and review (the film itself is not yet published anyw
 
 ## Layout
 - `src/` Remotion project (`Film.tsx` main film, `timeline.ts` timings and captions, `Sheet.tsx` generated surface and ink).
-- `src/StillA.tsx`, `StillB.tsx`, `StillC.tsx` and `stills/`: the three direction proposals (stone, manuscript, Jajce layers). Only B was built.
+- `src/StillA.tsx`, `StillB.tsx`, `StillC.tsx` and `stills/`: the three direction proposals (stone, manuscript, Jajce layers). Only B was built. The stills are proposal-stage artwork: B's still uses wording the fact sheet later rejected ("Republic of Ragusa", "no toll", "parchment"), and A and C are unverified studies.
 - `audio/synth.py`: deterministic ambient sound, picture-locked to `timeline.ts`.
 - `qa/check_frames.py`: measures caption margins and contrast on the delivered MP4. `qa/contact-*.png`: contact sheets.
 - `docs/`: the preview page served by GitHub Pages (`index.html`, key-frame JPEGs, the share MP4). Only this folder is published.
